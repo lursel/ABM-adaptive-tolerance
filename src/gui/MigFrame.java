@@ -14,7 +14,12 @@ import javax.swing.Timer;
 import events.EventManager;
 import migscape.World;
 
-/** This class handles the window and the user interaction (part of the GUI) **/
+/**
+ * Migrationscape version 2.2
+ * A version of the Schelling segregation model with adaptive tolerance.
+ * Author: Linda Urselmans
+ * University of Essex
+ *  **/
 @SuppressWarnings("serial")
 public class MigFrame extends JFrame
 {

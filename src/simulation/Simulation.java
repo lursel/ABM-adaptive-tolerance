@@ -40,9 +40,11 @@ import migscape.Tile;
 import migscape.World;
 
 /**
- * This is the main simulation class which will provide the constructor and
- * methods for the SimulationController class to run the final simulation
- */
+ * Migrationscape version 2.2
+ * A version of the Schelling segregation model with adaptive tolerance.
+ * Author: Linda Urselmans
+ * University of Essex
+ *  **/
 public class Simulation extends Observable implements Observer, Runnable
 {
 	double[] data = { 0, 0, 0, 0 }; // same, different, empty, happiness

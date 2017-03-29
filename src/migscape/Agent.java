@@ -1,7 +1,12 @@
 package migscape;
 
 import java.util.LinkedList;
-
+/**
+ * Migrationscape version 2.2
+ * A version of the Schelling segregation model with adaptive tolerance.
+ * Author: Linda Urselmans
+ * University of Essex
+ *  **/
 public class Agent
 {
 	public int posX, posY;

@@ -13,12 +13,11 @@ import migscape.Tile;
 import migscape.World;
 
 /**
- * This is the class that actually paints the components of the model and
- * updates them
- * @author Linda
- * 
- */
-
+ * Migrationscape version 2.2
+ * A version of the Schelling segregation model with adaptive tolerance.
+ * Author: Linda Urselmans
+ * University of Essex
+ *  **/
 public class Grid extends JPanel implements Observer, EventListener
 {
 	World world;

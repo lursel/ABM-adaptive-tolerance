@@ -1,11 +1,11 @@
 package migscape;
 
 /**
- * The Tile class creates objects of type Tile that contain
- * the Position on X/Y space, an Agent and a boolean of
- * whether the tile has an agent assigned to it.
- * @author Linda
- */
+ * Migrationscape version 2.2
+ * A version of the Schelling segregation model with adaptive tolerance.
+ * Author: Linda Urselmans
+ * University of Essex
+ *  **/
 
 public class Tile
 {
