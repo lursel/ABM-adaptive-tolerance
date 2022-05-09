@@ -1588,9 +1588,9 @@ public class Simulation extends Observable implements Observer, Runnable
 		// if there are no free tiles, we pick a random neighbour and try our luck. that way, the next influx is always "in the neighbourhood".
 		else
 		{
-			//print("<<checkMostAppealingNeighbour>>no free tiles. surroundingTiles is empty. trying " + tempAgntsNeigPos[prng.nextInt(12)][0] + "," +
-			//tempAgntsNeigPos[prng.nextInt(24)][1] + " now.");
-			mostAppealingNeighbour = checkMostAppealingNeighbour(tempAgntsNeigPos[prng.nextInt(12)]);
+			int rngx = prng.nextInt(8);
+			print("<<checkMostAppealingNeighbour>>no free tiles. surroundingTiles is empty. trying " + tempAgntsNeigPos[rngx][0] + "," + tempAgntsNeigPos[rngx][1] + " now.");
+			mostAppealingNeighbour = checkMostAppealingNeighbour(tempAgntsNeigPos[rngx]);
 		}
 
 		return mostAppealingNeighbour;
